@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/challenge-contraktor/precache-manifest.c94fd9e2f868295bdb24ba5515a63ef9.js"
+  "/challenge-contraktor/precache-manifest.13fd02366c80d7dacf42d985e52acdab.js"
 );
 
 self.addEventListener('message', (event) => {
