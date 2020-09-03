@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b13722283f2fc662f7cf352c0f4aa40e",
+    "revision": "9dc0a5a46996096492433c37b5946afa",
     "url": "/challenge-contraktor/index.html"
   },
   {
-    "revision": "8041bdaf3c21bab16aac",
+    "revision": "40b7dd24aecfd5df866c",
     "url": "/challenge-contraktor/static/css/main.19cd8f13.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/challenge-contraktor/static/js/2.a8e13cfa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8041bdaf3c21bab16aac",
-    "url": "/challenge-contraktor/static/js/main.05016613.chunk.js"
+    "revision": "40b7dd24aecfd5df866c",
+    "url": "/challenge-contraktor/static/js/main.264302d4.chunk.js"
   },
   {
     "revision": "2cf1c5a4c3e75d3b323f",
