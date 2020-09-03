@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.d8d0ed65.chunk.css",
-    "main.js": "/static/js/main.9b722a37.chunk.js",
-    "main.js.map": "/static/js/main.9b722a37.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.1e6069e7.js",
-    "runtime-main.js.map": "/static/js/runtime-main.1e6069e7.js.map",
-    "static/js/2.a8e13cfa.chunk.js": "/static/js/2.a8e13cfa.chunk.js",
-    "static/js/2.a8e13cfa.chunk.js.map": "/static/js/2.a8e13cfa.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.23dcc66b8efaf1b011b08aac134cc99d.js": "/precache-manifest.23dcc66b8efaf1b011b08aac134cc99d.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.d8d0ed65.chunk.css.map": "/static/css/main.d8d0ed65.chunk.css.map",
-    "static/js/2.a8e13cfa.chunk.js.LICENSE.txt": "/static/js/2.a8e13cfa.chunk.js.LICENSE.txt",
-    "static/media/main.scss": "/static/media/Nunito-Regular.d2e691bc.ttf"
+    "main.css": "/challenge-contraktor/static/css/main.19cd8f13.chunk.css",
+    "main.js": "/challenge-contraktor/static/js/main.c4fc7356.chunk.js",
+    "main.js.map": "/challenge-contraktor/static/js/main.c4fc7356.chunk.js.map",
+    "runtime-main.js": "/challenge-contraktor/static/js/runtime-main.d3954476.js",
+    "runtime-main.js.map": "/challenge-contraktor/static/js/runtime-main.d3954476.js.map",
+    "static/js/2.a8e13cfa.chunk.js": "/challenge-contraktor/static/js/2.a8e13cfa.chunk.js",
+    "static/js/2.a8e13cfa.chunk.js.map": "/challenge-contraktor/static/js/2.a8e13cfa.chunk.js.map",
+    "index.html": "/challenge-contraktor/index.html",
+    "precache-manifest.ae292ff319247978abc99841e4bd2e5e.js": "/challenge-contraktor/precache-manifest.ae292ff319247978abc99841e4bd2e5e.js",
+    "service-worker.js": "/challenge-contraktor/service-worker.js",
+    "static/css/main.19cd8f13.chunk.css.map": "/challenge-contraktor/static/css/main.19cd8f13.chunk.css.map",
+    "static/js/2.a8e13cfa.chunk.js.LICENSE.txt": "/challenge-contraktor/static/js/2.a8e13cfa.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/challenge-contraktor/static/media/Nunito-Regular.d2e691bc.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.1e6069e7.js",
+    "static/js/runtime-main.d3954476.js",
     "static/js/2.a8e13cfa.chunk.js",
-    "static/css/main.d8d0ed65.chunk.css",
-    "static/js/main.9b722a37.chunk.js"
+    "static/css/main.19cd8f13.chunk.css",
+    "static/js/main.c4fc7356.chunk.js"
   ]
 }
