@@ -1,0 +1,11 @@
+@import '../base/tokens.scss';
+
+.badge {
+    display: inline-block;
+    background: $color-brand-1;
+    padding: $spacing-xxs;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}

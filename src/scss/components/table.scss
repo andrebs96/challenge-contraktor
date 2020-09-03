@@ -1,0 +1,33 @@
+.table-box {    
+    overflow-y: hidden;
+    overflow-x: auto;
+
+    /* height */
+    &::-webkit-scrollbar {
+      height: 7px;
+    }
+  
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+      background: #333;
+      border-radius: 10px;
+    }
+}
+
+.table {
+    width: auto;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.thead {
+    border-bottom: 4px solid #333;
+}
+
+th, td {
+    vertical-align: middle;
+}
+
+td {
+    color: #77838f;
+}

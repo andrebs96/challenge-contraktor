@@ -1,0 +1,8 @@
+@import '../base/tokens.scss';
+
+.card {
+    background-color: #f5f8fa;
+    border: 1px solid #cbd6e2;
+    border-radius: 4px;
+    padding: $spacing-sm;
+}

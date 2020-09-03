@@ -1,0 +1,21 @@
+@import '../../scss/base/tokens.scss';
+
+.related-parts-box {
+  height: auto;
+  max-height: 290px;
+  overflow-y: auto;
+  padding-right: $spacing-xs;
+  margin-bottom: $spacing-sm;
+
+  /* height */
+  &::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: $color-brand-1;
+    border-radius: 10px;
+  }
+}

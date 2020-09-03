@@ -1,25 +1,37 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Provider } from 'react-redux';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import './scss/main.scss';
+import store from './store';
+import logo from './assets/img/logo.png';
+import Contratos from './pages/Contratos';
+import Contrato from './pages/Contrato';
+import CriarContrato from './pages/CriarContrato';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={store}>
+      <Router>
+        <header className="header">
+          <div className="container">
+            <Link to="/">
+              <img src={logo} className="" alt="logo" width="175" height="auto" />
+            </Link>
+          </div>
+        </header>
+        <Switch>
+          <Route exact path="/">
+            <Contratos />
+          </Route>
+          <Route path="/contrato/:id">
+            <Contrato />
+          </Route>
+          <Route path="/criar">
+            <CriarContrato />
+          </Route>
+        </Switch>
+      </Router>
+    </Provider>
   );
 }
 

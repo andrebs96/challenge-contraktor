@@ -1,0 +1,21 @@
+@import '../base/tokens.scss';
+
+.field {
+    margin-bottom: $spacing-sm;
+}
+
+.label {
+    color: $color-brand-1;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: $spacing-xxxs;
+}
+
+.input {
+    background-color: #f5f8fa;
+    border: 1px solid #cbd6e2;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: $spacing-xs;
+    width: 100%;
+}

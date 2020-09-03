@@ -1,68 +1,49 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Challenge Contraktor
 
-## Available Scripts
+## Project setup
+1. Instale o [Node.js](https://nodejs.org/en/);
+2. Faça um clone do projeto; e
+3. Na pasta do projeto, digite o comando `npm install` e espere todas as dependêcias serem baixadas.
 
-In the project directory, you can run:
+## Comandos
+* `npm start`: rodar o projeto para desenvolvimento;
+> Note: Após a compilação, o endereço de acesso via browser será informado no Terminal.
+* `npm run build`: build de produção;
+> Note: Siga este link para visualizar localmente o projeto pronto para produção: [Visualizando localmente](https://create-react-app.dev/docs/deployment/).
+* `npm run test`: rodar testes unitários; e
+> Note: Ainda não foram desenvolvidos testes unitários no projeto.
+* `npm run eject`: ejetar o projeto serve para customização do ambiente desenvolvimento.
+> Note: Não tome esta decisão antes de ter o aval da equipe. Este procedimento não tem volta!
 
-### `npm start`
+## Tecnologias usadas
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Linguagens
+* JavaScript (ES6)
+* HTML5
+* CSS3
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Task Runners
+* NPM Scripts
 
-### `npm test`
+### Frameworks
+* [React](https://pt-br.reactjs.org/)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Plugins, Bibliotecas e Componentes
+* [Redux](https://redux.js.org/)
+* [React Router](https://reactrouter.com/)
 
-### `npm run build`
+### Pré-processador
+* [SCSS](https://sass-lang.com/)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Testing
+* [React Testing Library](https://testing-library.com/)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Escolhas para o Projeto
+Algumas das escolhas, como o uso de Sass e a implementação simples do Redux foi para a entrega mais rápida do Projeto. Com a escolha de trabalhar com os dados mockados, não foi necessário utilizar/ simular uma comunicação com API, não exigindo implementações mais robustas do Redux e o uso de libs como o Axios. Sobre não trabalhar com styled-components, foi simplesmente para ter mais velocidade.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Features que ainda não foram entregues
+* Cadastro de contrato
+* Exclusão de contrato
+* Cadastrar e consultar uma parte
+* Relacionar um contrato à uma ou mais partes
+* Visualização simples de um contrato com as partes relacionadas ao contrato

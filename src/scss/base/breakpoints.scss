@@ -1,0 +1,23 @@
+@mixin breakpoint($point) {
+    /************************************
+    ***** CLASSE  ******
+    *************************************/
+
+    @if $point == $grid-md {
+        @media (min-width: $grid-md) {
+            @content;
+        }
+    }
+
+    @if $point == $grid-sm {
+        @media (min-width: $grid-sm) {
+            @content;
+        }
+    }
+
+    @if $point == $grid-xs {
+        @media (min-width: $grid-xs) {
+            @content;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+@import './base/reset.scss';
+@import './base/tokens.scss';
+@import './base/typography.scss';
+@import './base/breakpoints.scss';
+@import './helpers/spacing.scss';
+@import './helpers/layout.scss';
+
+.align-center {
+    align-items: center !important;
+}
+
+.justify-between {
+    justify-content: space-between !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+
+@include breakpoint( 768px ) {
+    .d-flex-sm {
+        display: flex !important;
+    }
+}
