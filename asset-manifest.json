@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/challenge-contraktor/static/css/main.19cd8f13.chunk.css",
-    "main.js": "/challenge-contraktor/static/js/main.264302d4.chunk.js",
-    "main.js.map": "/challenge-contraktor/static/js/main.264302d4.chunk.js.map",
+    "main.js": "/challenge-contraktor/static/js/main.ad6829a9.chunk.js",
+    "main.js.map": "/challenge-contraktor/static/js/main.ad6829a9.chunk.js.map",
     "runtime-main.js": "/challenge-contraktor/static/js/runtime-main.d3954476.js",
     "runtime-main.js.map": "/challenge-contraktor/static/js/runtime-main.d3954476.js.map",
     "static/js/2.a8e13cfa.chunk.js": "/challenge-contraktor/static/js/2.a8e13cfa.chunk.js",
     "static/js/2.a8e13cfa.chunk.js.map": "/challenge-contraktor/static/js/2.a8e13cfa.chunk.js.map",
     "index.html": "/challenge-contraktor/index.html",
-    "precache-manifest.c67fb9538bfe61296f07e05ceaf9eb81.js": "/challenge-contraktor/precache-manifest.c67fb9538bfe61296f07e05ceaf9eb81.js",
+    "precache-manifest.f44b66f37625ba439a0d0f2a8108ad1d.js": "/challenge-contraktor/precache-manifest.f44b66f37625ba439a0d0f2a8108ad1d.js",
     "service-worker.js": "/challenge-contraktor/service-worker.js",
     "static/css/main.19cd8f13.chunk.css.map": "/challenge-contraktor/static/css/main.19cd8f13.chunk.css.map",
     "static/js/2.a8e13cfa.chunk.js.LICENSE.txt": "/challenge-contraktor/static/js/2.a8e13cfa.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.d3954476.js",
     "static/js/2.a8e13cfa.chunk.js",
     "static/css/main.19cd8f13.chunk.css",
-    "static/js/main.264302d4.chunk.js"
+    "static/js/main.ad6829a9.chunk.js"
   ]
 }
